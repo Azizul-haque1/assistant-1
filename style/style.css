@@ -1,0 +1,199 @@
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    min-height:100vh;
+    background-image: linear-gradient(#E6E6FA,#B8E7FA);
+}
+* img{
+    width: 100%;
+}
+
+.heading-content h2, p{
+    margin-bottom: 20px;
+}
+
+.heading-content h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#btn{
+    color:#0D1321 ;
+    padding: 17px 24px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(to left, #FFD447,#FFA500 );
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    cursor: pointer;
+}
+
+#display-container,
+#target {
+    text-align: center;
+    justify-content: center;
+    max-width: 87.5%;
+    margin: 100px auto;
+    padding: 40px 60px;
+}
+
+
+#nav{
+    max-width: 100%;    
+    background-color: white;
+    padding: 24px 100px;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.nav-title span{
+    color:#FFA500 ;
+}
+
+#hope-container{
+    max-width: 87.5%;
+    margin: 100px auto;
+    padding: 40px 60px;
+}
+
+#hope{
+    background-color: #E6EDF9;
+    text-align: center;
+    align-items: center;
+}
+.hope-image{
+    padding: 40px 60px;
+    margin: 0px auto;
+    width: 40%;  
+}
+
+.hope-image img{
+    max-width: 240px;
+}
+.hope-content{
+    padding: 40px 60px;
+    width: 60%;
+    margin: 0px auto;
+}
+.hope-content h1{
+    font-size: 48px;
+}
+.hope-content p{}
+
+.hope-content h1, p{
+    margin-bottom: 24px;
+}
+.hope-content button{
+    margin-top: 32px;
+
+}
+
+#conding{
+        text-align: center;
+        justify-content: center;
+        max-width: 87.5%;
+        margin: 100px auto;
+        padding: 40px 60px;  
+
+}
+.development-container{
+    align-items: center;
+    background-color: #E6EDF9;
+    display: flex;
+    justify-content:space-between;
+    margin: 100px auto;
+    padding: 40px 60px;     
+}
+
+.dev-content {
+    text-align:left;
+}
+.dev-content h2, p{
+    margin-bottom: 20px;
+}
+.dev-content p, .hope-content p, .heading-content p{
+    letter-spacing: 1px;
+    color: #0D132170;
+
+}
+
+.target-card-container{
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.youtube-container iframe{
+    border: 1px solid #0D132120;
+    padding: 32px;
+    border-radius: 16px;
+    
+}
+
+
+
+.target-card{
+    background-image: linear-gradient(#E6E6FA, #B8E7FA);
+    border-radius: 16px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding:40px ;
+    text-align: left;
+    margin: auto;
+    min-width: 364px;
+    
+
+}
+.target-card img, h6{
+    margin-bottom: 20px;
+}
+.target-card img{
+    max-width: 20%;
+}
+.target-card h6{
+    font-size: 24px;
+}
+.target-card a {
+    text-decoration: underline;
+    color: black;
+}
+.target-card-container{
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer{
+    font-size: large;
+    font-weight: bold;
+    max-width: 100%;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    padding: 32px 150px;
+    justify-content: space-between;
+}
+.footer-icon img{
+    margin-left: 24px;
+}
+
+.footer-icon img {
+    max-width: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
